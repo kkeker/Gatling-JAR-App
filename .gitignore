@@ -2,4 +2,4 @@ target/
 Gattling-JAR.iml
 dependency-reduced-pom.xml
 .idea/
-results/
+.DS_Store
