@@ -23,7 +23,13 @@ Where instead of `OtusHw3` you have to give the name of your test script from th
 
 - After a successful test run, the result of its execution will be located in the `results/{your_test_name}-{date_and_time_start}/index.html`
 
+#### Docker build:
 
+- `docker build -t gatling:otushw3 .`
+- `docker run -p 80 gatling:otushw3`
+
+**Be careful!**
+The Dockerfile is written for example only! The test is executed in it directly at build time.After running the test, the embedded web server displays the result.
 
 
 
