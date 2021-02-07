@@ -1,0 +1,8 @@
+.gitignore
+Gattling-JAR.iml
+.idea
+README.md
+results
+Dockerfile
+target
+**/.DS_Store
